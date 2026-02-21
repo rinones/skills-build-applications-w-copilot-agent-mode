@@ -1,0 +1,25 @@
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+}
+
+.app-shell .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.app-shell main {
+  min-height: calc(100vh - 72px);
+}
+
+.card-header .btn {
+  white-space: nowrap;
+}
+
+.data-table pre {
+  max-height: 160px;
+  overflow: auto;
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
